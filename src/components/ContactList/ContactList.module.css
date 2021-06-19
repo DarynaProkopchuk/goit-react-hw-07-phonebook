@@ -1,0 +1,20 @@
+.btnDelete {
+  margin-left: 20px;
+  background-color: rgb(214, 187, 187);
+  border-radius: 10px;
+
+  /* background-color: rgb(248, 167, 167); */
+  cursor: pointer;
+}
+.btnDelete:hover {
+  background-color: rgb(233, 88, 155);
+}
+
+.contactListItem {
+  color: rgb(235, 88, 105);
+  font-size: 20px;
+  list-style: none;
+}
+.contactListItem:not(:last-child) {
+  margin-bottom: 10px;
+}
